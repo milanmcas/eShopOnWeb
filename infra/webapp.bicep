@@ -1,4 +1,4 @@
-param webAppName string = uniqueString(resourceGroup().id)+'milan'
+param webAppName string = '${uniqueString(resourceGroup().id)}-milan'
 
 param sku string = 'B1' // The SKU of App Service Plan
 param location string = resourceGroup().location
