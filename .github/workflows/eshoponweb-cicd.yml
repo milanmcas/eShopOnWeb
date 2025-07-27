@@ -46,7 +46,7 @@ jobs:
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v4
       with:
-        name: bicep-template
+        name: bicep1-template
         path: ${{ env.TEMPLATE-FILE }}
         
   # Use Bicep to deploy infrastructure + Publish webapp 
