@@ -1,4 +1,4 @@
-# param webAppName string = uniqueString(resourceGroup().id) // Generate unique String for web app name
+
 param webAppName string = 'eshop-${uniqueString(resourceGroup().id, ${resourceGroup().location})}'
 param sku string = 'B1' // The SKU of App Service Plan
 param location string = resourceGroup().location
