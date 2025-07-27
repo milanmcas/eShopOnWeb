@@ -9,7 +9,7 @@ env:
   LOCATION: westus2
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 32478abd-99fd-42b6-b186-aa0237e6b69f
-  WEBAPP-NAME: eshoponweb-milan53315180
+  WEBAPP-NAME: eshop-${{ github.run_id }}
 
 
 jobs:
